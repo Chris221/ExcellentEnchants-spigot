@@ -7,7 +7,7 @@
     <groupId>su.nightexpress.excellentenchants</groupId>
     <artifactId>ExcellentEnchants</artifactId>
     <packaging>pom</packaging>
-    <version>3.4.1</version>
+    <version>3.4.2</version>
     <modules>
         <module>Core</module>
         <module>NMS</module>
@@ -16,6 +16,7 @@
         <module>V1_19_R1</module>
         <module>V1_19_R2</module>
         <module>V1_19_R3</module>
+        <module>V1_20_R1</module>
     </modules>
 
     <properties>
@@ -30,6 +31,8 @@
             <groupId>su.nexmedia</groupId>
             <artifactId>NexEngine</artifactId>
             <version>2.2.10</version>
+            <scope>system</scope>
+            <systemPath>C:/Users/Chris/Documents/GitHub/ExcellentEnchants-spigot/NexEngine.jar</systemPath>
         </dependency>
     </dependencies>
 
